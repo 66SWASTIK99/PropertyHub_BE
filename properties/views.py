@@ -40,12 +40,12 @@ def add_review_api(self, request):
     user_id = token_payload.get("user_id")
     return add_review_raw(request.data, user_id)
 
-@api_view(['GET'])
+@api_view(['POST'])
 @permission_classes([AllowAny])
 def search_properties_api(request):
 
         data = request.data
-        user_id = data.get('user_id')
+        
         return search_property(data)
 
 
