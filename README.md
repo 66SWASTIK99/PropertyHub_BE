@@ -25,8 +25,8 @@
 
 ---
 
-
-https://propertyhub-vz25.onrender.com/
+FrontEnd(Web Version): https://propertyhub-web-trial.vercel.app
+BackEnd: https://propertyhub-vz25.onrender.com/
 
 <!--## 🏗️ Project Structure
 
