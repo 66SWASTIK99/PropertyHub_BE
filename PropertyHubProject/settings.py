@@ -168,4 +168,4 @@ SIMPLE_JWT = {
     'JTI_CLAIM': 'jti',
 }
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://propertyhub-vz25.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'propertyhub-vz25.onrender.com']
