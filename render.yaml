@@ -10,7 +10,7 @@ services:
     name: propertyhub
     runtime: python
     buildCommand: './build.sh'
-    startCommand: 'python -m gunicorn propertyhub.asgi:application -k uvicorn.workers.UvicornWorker' 
+    startCommand: 'gunicorn PropertyHubProject.asgi:application -k uvicorn.workers.UvicornWorker' 
     envVars:
       - key: DATABASE_URL
         fromDatabase:
